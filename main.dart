@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
 //int dataType
   // int a = 12;
@@ -22,7 +24,8 @@ void main() {
   // print(a.runtimeType);
   // print(a.truncate());
 
-  //String DataType
+
+//String DataType
   // String name = 'Suraj';
   // print('Name: ' '$name');
   // print(name.runtimeType);
@@ -31,8 +34,10 @@ void main() {
   // print(name.startsWith('S'));
   // print(name.compareTo('Sur'));
   // print(name.endsWith('j'));
+  // print(name.toUpperCase());
 
-  //Double
+
+//Double
   // double value = 12;
   // double val = 12.0;
 
@@ -42,18 +47,121 @@ void main() {
   // print(val.toInt());
   // print(val.remainder(5));
 
-  // Boolean
+
+// Boolean
   // bool values = true;
   // bool vals = false;
   // print(values);
   // print(vals);
   // print(vals.runtimeType);
 
-  //dynamic
-  dynamic value;
-  value = 12;
-  print(value);
 
-  value = 'name';
-  print(value);
+//dynamic
+  // dynamic value;
+  // value = 12;
+  // print(value);
+
+  // value = 'name';
+  // print(value);
+
+
+// STRING CONCATINATION
+  // String name = 'hello';
+  // String name2 = ' saurabh ';
+  // int a = 3;
+  // print(name + name2);
+  // print(name + name2 + a.toString());
+  // print(name2 * a);
+  // print(name ?? 'value');
+
+
+
+//CONDITIONAL STATEMENT
+  // String name = 'if';
+  // String name2 = 'else';
+  // int value1 = 1;
+  // int value2 = 5;
+  // int value3 = 3;
+
+
+//IF ELSE AND ELSE IF STATEMENT
+  // if (value1 > value2) {
+  //   print('value1: ' '$value1');
+  // } else if (value2 < value3) {
+  //   print('value2: ' '$value2');
+  // } else {
+  //   print('else');
+  // }
+
+
+//IF ELSE STATEMENT WITH ADD(&&) OPERATOR.
+  // if (value1 < value2 && value3 > value2) {
+  //   print(name);
+  // } else {
+  //   print('name2');
+  // }
+
+
+//IF ELSE STATEMENT WITH OR(||) OPERATOR.
+  // if (value1 < value2 || value2 > value3) {
+  //   print(name);
+  // } else {
+  //   print(name2);
+  // }
+
+
+// SWITCH CASE STATEMENT
+  // int value1 = 1;
+  // int value2 = 5;
+  // int value3 = 3;
+  // switch (value2) {
+  //   case 1:
+  //     print("its 1");
+
+  //   case 2:
+  //     print("its 2");
+
+  //   case 5:
+  //     print("its 5");
+
+  //   default:
+  //     print(0);
+  // }
+
+  
+
+//TERNARY
+  //                 <condition> ? exp1 : exp2
+  // String smaller = value1 < value2 ? '$value1' : '$value2';
+  // print(smaller);
+
+//Second example of ternary .
+  // int a = 1;
+  // int b = 2;
+  // int small = a > b ? a : b;
+  // print(small);
+
+//Second method of ternary
+  // int a = 3;
+  // int b = 4;
+
+  // int greater = a > b ? a : b;
+  // print(greater);
+
+//Ternary condition using list
+  // int variable = 9;
+  // int value1 = 1;
+  // int value2 = 5;
+  // int value3 = 3;
+
+  // String Values =
+  //     [value1, value2, value3].contains(variable) ? 'equal' : 'notEqual';
+  // print(Values);
+
+//Example
+  // String result1 = [value1, value2, value3].contains(variable)
+  //     ? 'equal'
+  //     : 'not equal';
+
+  // print(result1);
 }
