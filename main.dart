@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-//int dataType
+//➡️int dataType
   // int a = 12;
   // int b = 7;
   // int c;
@@ -24,8 +24,7 @@ void main() {
   // print(a.runtimeType);
   // print(a.truncate());
 
-
-//String DataType
+//➡️String DataType
   // String name = 'Suraj';
   // print('Name: ' '$name');
   // print(name.runtimeType);
@@ -36,8 +35,7 @@ void main() {
   // print(name.endsWith('j'));
   // print(name.toUpperCase());
 
-
-//Double
+//➡️Double
   // double value = 12;
   // double val = 12.0;
 
@@ -47,16 +45,14 @@ void main() {
   // print(val.toInt());
   // print(val.remainder(5));
 
-
-// Boolean
+// ➡️Boolean
   // bool values = true;
   // bool vals = false;
   // print(values);
   // print(vals);
   // print(vals.runtimeType);
 
-
-//dynamic
+//➡️dynamic
   // dynamic value;
   // value = 12;
   // print(value);
@@ -64,8 +60,7 @@ void main() {
   // value = 'name';
   // print(value);
 
-
-// STRING CONCATINATION
+//➡️ STRING CONCATINATION
   // String name = 'hello';
   // String name2 = ' saurabh ';
   // int a = 3;
@@ -74,17 +69,14 @@ void main() {
   // print(name2 * a);
   // print(name ?? 'value');
 
-
-
-//CONDITIONAL STATEMENT
+//➡️CONDITIONAL STATEMENT
   // String name = 'if';
   // String name2 = 'else';
   // int value1 = 1;
   // int value2 = 5;
   // int value3 = 3;
 
-
-//IF ELSE AND ELSE IF STATEMENT
+//➡️IF ELSE AND ELSE IF STATEMENT
   // if (value1 > value2) {
   //   print('value1: ' '$value1');
   // } else if (value2 < value3) {
@@ -93,24 +85,21 @@ void main() {
   //   print('else');
   // }
 
-
-//IF ELSE STATEMENT WITH ADD(&&) OPERATOR.
+//➡️IF ELSE STATEMENT WITH ADD(&&) OPERATOR.
   // if (value1 < value2 && value3 > value2) {
   //   print(name);
   // } else {
   //   print('name2');
   // }
 
-
-//IF ELSE STATEMENT WITH OR(||) OPERATOR.
+//➡️IF ELSE STATEMENT WITH OR(||) OPERATOR.
   // if (value1 < value2 || value2 > value3) {
   //   print(name);
   // } else {
   //   print(name2);
   // }
 
-
-// SWITCH CASE STATEMENT
+//➡️ SWITCH CASE STATEMENT
   // int value1 = 1;
   // int value2 = 5;
   // int value3 = 3;
@@ -128,9 +117,7 @@ void main() {
   //     print(0);
   // }
 
-  
-
-//TERNARY
+//➡️TERNARY
   //                 <condition> ? exp1 : exp2
   // String smaller = value1 < value2 ? '$value1' : '$value2';
   // print(smaller);
@@ -148,7 +135,7 @@ void main() {
   // int greater = a > b ? a : b;
   // print(greater);
 
-//Ternary condition using list
+//➡️Ternary condition using list
   // int variable = 9;
   // int value1 = 1;
   // int value2 = 5;
@@ -164,4 +151,82 @@ void main() {
   //     : 'not equal';
 
   // print(result1);
+
+//➡️LOOPS
+
+//For loop
+  // int a = 5;
+  // String value = 'Hello';
+
+  // for (int i = 0; i < a; i++) {
+  //   print(value);
+  // }
+
+//➡️while loop
+  // String value = "Hello";
+  // int a = 0;
+  // while (a < value.length) {
+  //   print("hello");
+  //   a++;
+  // }
+
+//➡️Do_While_Loop
+  // String value = 'Hello';
+  // int i = 0;
+  // do {
+  //   print(value[i]);
+  //   i++;
+  // } while (i!= 0);
+
+//➡️Break and continue
+
+//break
+
+  // List list = [1, 2, 3, 4, 5];
+
+  // for (int i = 0; i < list.length; i++) {
+  //   if (i == 2) {
+  //     break;
+  //   }
+  //   print(list[i]);
+  // }
+
+//2nd example
+  // List list = [1, 2, 3, null, 5];
+
+  // for (int i = 0; i < list.length; i++) {
+  //   if (list[i] == null) {
+  //     break;
+  //   }
+  //   print(list[i]);
+  // }
+
+// 3rd example of break.
+  // bool stopped = false;
+
+  // for (int i = 0; i <20; i++) {
+  //   if (stopped == false) {
+  //     break;
+  //   }
+  //   print(i+1);
+  // }
+
+//➡️Continue
+  // String value = 'hello';
+
+  // for (int i = 0; i < value.length; i++) {
+  //   if (i == 3) {
+  //     continue;
+  //   }
+  //   print(value[i]);
+  // }
+
+  List list = [1, 3, 4, null, 6];
+
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == null) {
+      continue;
+    }
+    print(list[i]);
+  }
 }
