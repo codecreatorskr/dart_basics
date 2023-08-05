@@ -213,7 +213,6 @@ void main() {
 
 //➡️Continue
   // String value = 'hello';
-
   // for (int i = 0; i < value.length; i++) {
   //   if (i == 3) {
   //     continue;
@@ -221,12 +220,76 @@ void main() {
   //   print(value[i]);
   // }
 
-  List list = [1, 3, 4, null, 6];
+//2nd method
+  // List list = [1, 3, 4, null, 6];
+  // for (int i = 0; i < list.length; i++) {
+  //   if (list[i] == null) {
+  //     continue;
+  //   }
+  //   print(list[i]);
+  // }
 
-  for (int i = 0; i < list.length; i++) {
-    if (list[i] == null) {
-      continue;
+//➡️Print Pattern
+
+//left half pyramid
+  // for (int i = 0; i < 5; i++) {
+  //   for (int j = 0; j <= i; j++) {
+  //     stdout.write('* '); //print('*')
+  //   }
+  //   stdout.write('\n');
+  // }
+
+// 2nd method
+  // for (var i = 1; i <= 5; i++) {
+  //     print('* ' * 5);
+  //   }
+
+//inverrted right half pyramid
+  // int n = 5;
+  // for (int i = 0; i < n; i++) {
+  //   //space
+  //   for (int j=0;j>=0;j--) {
+  //     stdout.write('');
+  //     for (int k = 0; k < n - i; k++) {
+  //       stdout.write("* ");
+  //     }
+  //   }
+  //   stdout.write('\n');
+  // }
+
+// right half pyramid
+  // int n = 5;
+  // for (int i = 0; i <= 5; i++) {
+  //   for (int j = 0; j < n - i; j++) {
+  //     stdout.write(' ');
+  //   }
+  //   for (int k = 0; k < i; k++) {
+  //     stdout.write('*');
+  //   }
+  //   stdout.write('\n');
+  // }
+
+//FULL PYRAMID
+  // int n = 5;
+  // for (int i = 0; i <= n; i++) {
+  //   for (int j = 0; j < n - i; j++) {
+  //     stdout.write(' ');
+  //   }
+  //   for (int k = 0; k < i; k++) {
+  //     stdout.write('* ');
+  //   }
+  //   stdout.write('\n');
+  // }
+
+//INVERTED FULL PYRAMID
+  int n = 5;
+  for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= i; j++) {
+      stdout.write('* ');
     }
-    print(list[i]);
+    for (int k = 0; k <= i; k++) {
+      stdout.write(' ');
+    }
+    stdout.write('\n');
   }
 }
