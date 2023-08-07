@@ -1,13 +1,76 @@
-void main() {
-  void mulfun(int a, Function callback) {
-    print('hello');
-    callback();
-  }
+//functions
 
-  mulfun(12, () {
-    print('callback fun');
-  });
+// void main() {
+// (String ,int )user = userCreds();
+// print(user);
+// print(user.$1);
+// print(user.$2);\
+
+//1.2nd calling method
+// final (name, age) = userCreds();
+// print(name);
+// print(age);
+
+//2nd method
+// final user = userCreds();
+// print(user);
+// print(user.name);
+// print(user.age);
+// }
+
+// (String, int) userCreds() {
+//   return ('saurabh', 20);
+// }
+
+//2nd method
+({String name, int age}) userCreds() {
+  return (name: 'saurabh', age: 20);
 }
+
+// void main() {
+//   String? message = welcome('saurabh');
+//   // String? message = welcome(null);
+//   print(message);
+// }
+
+// String? welcome(String? user) => 'Welcome ${user ?? 'some user'}';
+
+//recursion
+// void main() {
+//   printDec(5);
+// }
+
+// void printdec(int num) {
+//   if (num == 1) {
+//     print(num);
+//     return;
+//   }
+//   print(num);
+//   printDec(num - 1);
+// }
+
+// void main() {
+//   printDec(10);
+// }
+// void printDec(int num) {
+//   if (num == 1) {
+//     print(num);
+//     return;
+//   }
+//   print(num);
+//   printDec(num-1);
+// }
+
+// void main() {
+//   void mulfun(int a, Function callback) {
+//     print('hello');
+//     callback();
+//   }
+
+//   mulfun(12, () {
+//     print('callback fun');
+//   });
+// }
 
 //9.Function inside function
 // void main() {
@@ -30,7 +93,6 @@ void main() {
 //   print('could not find');
 // }
 
-
 //8.named parameters
 // void main() {
 //   credential(city: 'udaipur',state: 'rajasthan',pincode: 313001,name: 'saurabh');
@@ -42,11 +104,9 @@ void main() {
 //   print(pincode);
 // }
 
-
-
 // Positional parameters must be passed in the same order as they appear in the function signature, whereas named parameters can be passed in any order. Positional parameters are defined by their position in the parameter list, whereas named parameters are defined by their name
 
-//7.Positional parameters 
+//7.Positional parameters
 // void main() {
 //   check('saurabh', 'city', 'state', 313001);
 // }
@@ -57,11 +117,10 @@ void main() {
 //   print(pincode);
 // }
 
-
 //6. Anonymous Function  ();
-  // () {
-  //   print('Hello');
-  // }();
+// () {
+//   print('Hello');
+// }();
 
 //5.Check number is even or odd.
 // void checkNumber(int num1) {
@@ -93,20 +152,19 @@ void main() {
 //   return a + b;
 
 //2.addition
-  // void addition() {
-  //   int a = 12;
-  //   int b = 10;
-  //   print(a + b);
-  // }
-  // addition();
+// void addition() {
+//   int a = 12;
+//   int b = 10;
+//   print(a + b);
+// }
+// addition();
 
 //1.function decleration and invocation.
 // <returntype>  <function_name> (){}     //syntax
-  // void myfunction() {
-  //   print("hello");
-  // }
-  // myfunction();
-  // myfunction();
-
+// void myfunction() {
+//   print("hello");
+// }
+// myfunction();
+// myfunction();
 
 // }
