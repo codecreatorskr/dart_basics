@@ -1,29 +1,166 @@
-//Static KeyWords
-void main() {
-  print(Greeting.policy);
-  print(Greeting.appName);
-  print(Maths.addition(12, 12));
-  print(Maths.multiply(10, 5));
-  print(Maths.loggedIn);
-  print(user);
-}
+//5.OOPS Concept
 
-class Greeting {
-  static String appName = 'VissionX';
-  static String policy = 'Welcome to the $appName App..';
-}
+//5.3(ENCAPSULATION)== using getter setter to implement encapsulation.
 
-Map user = {"loggedIn": 'login', "name": 'saurabh'};
+//5.2 polymorphism
+// void main() {
+//   Animal animal = Cat();
+//   animal.sound();
+//   animal.sound();
+//   animal = Dog();
+//   animal.sound();
+// }
 
-class Maths {
-  static const loggedIn = "login";
+// class Animal {
+//   void sound() {
+//     print("Animal making sound");
+//   }
+// }
 
-  static int addition(int a, int b) => a + b;
+// class Cat extends Animal {
+//   void sound() {
+//     print("Cat making sound");
+//   }
+// }
 
-  static int multiply(int a, int b) => a * b;
-}
+// class Dog extends Animal {
+//   void sound() {
+//     print('Dog making sound');
+//   }
+// }
 
 
+
+//5.1  Inheritance
+
+// void main() {
+  // Car car = Car();
+  // print((car as Car).hasEngine);
+  // print(car.hasEngine);
+  // print(car.wheels);
+  // car.getColor();
+  // car.getSpeed();
+
+  // Bike bike = Bike();
+  // print(bike.speed);
+  // bike.setSpeed = 80;
+  // bike.getSpeed();
+
+  // dynamic a = 10.00;
+  // print(a as double);
+  // Cycle cycle = Cycle();
+  // print(cycle.hasEngine);
+  // print(cycle.speed);
+  // print(cycle.wheels);
+
+  //Abstract
+  // Vechile car = Car();
+  // car.speed();
+// }
+// class Vechile {
+//   bool hasEngine = true;
+//   int wheels = 4;
+//   int speed = 20;
+//   void getSpeed() => print('My speed is');
+// }
+
+
+
+//Abstract
+// abstract class Vechile {
+//   void speed();
+  // void getaccelator();
+// }
+// class Car extends Vechile {
+//   @override
+//   void speed() {
+//     print("Speed");
+//   }
+  // @override
+  // Void getaccelator() {
+  //   print('accelator');
+  // }
+// }
+
+
+
+//IMPLEMENT
+// class Cycle implements Vechile {
+//   @override
+//   bool hasEngine = false;
+
+//   @override
+//   int speed = 10;
+
+//   @override
+//   int wheels = 2;
+
+//   @override
+//   void getSpeed() {
+//     print('Cycle Speed ');
+//   }
+// }
+
+
+//Override
+// class Car extends Vechile {
+  // @override             //Overide
+  // void getSpeed() {
+  //   super.getSpeed();
+  //   print(speed);
+  // }
+
+  // @override
+  // bool get hasEngine => false;
+  // String color = 'red';
+  // void getColor() => print(color);
+// }
+
+
+// class Bike extends Vechile {
+//   void getSpeed() => print(speed);
+//   set setSpeed(int Speed) => speed = Speed;
+// }
+
+// 5.1.1
+//  void main(){
+//    List list = [1, 2, 'saurabh',12.324];
+//   for (int i = 0; i < list.length; i++) {
+//     if (list[i] is String) {
+//       print(list[i]);
+//     }
+//   }
+//  }
+
+
+
+
+
+
+//4.Static KeyWords
+// void main() {
+//   print(Greeting.policy);
+//   print(Greeting.appName);
+//   print(Maths.addition(12, 12));
+//   print(Maths.multiply(10, 5));
+//   print(Maths.loggedIn);
+//   print(user);
+// }
+
+// class Greeting {
+//   static String appName = 'VissionX';
+//   static String policy = 'Welcome to the $appName App..';
+// }
+
+// Map user = {"loggedIn": 'login', "name": 'saurabh'};
+
+// class Maths {
+//   static const loggedIn = "login";
+
+//   static int addition(int a, int b) => a + b;
+
+//   static int multiply(int a, int b) => a * b;
+// }
 
 //3.Getter ==>Setter ==> private variable
 
@@ -34,9 +171,9 @@ class Maths {
 //   print(userCred.getName);
 //   print(userCred.setName = 'saurabh');
 
-  // print(userCred.number2);
-  // userCred.number1 = 12;
-  // print(userCred.number2);
+// print(userCred.number2);
+// userCred.number1 = 12;
+// print(userCred.number2);
 // }
 
 // class User {
@@ -50,14 +187,11 @@ class Maths {
 // //setter
 //   set setName(String val) => _names = val;
 
-  // int number1 = 10;
-  // int get number2 {
-  //   return number1;
+// int number1 = 10;
+// int get number2 {
+//   return number1;
 //   }
 // }
-
-
-
 
 //2.Constructor
 

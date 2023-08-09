@@ -6,12 +6,12 @@
 // print(user.$1);
 // print(user.$2);\
 
-//1.2nd calling method
+// 1.2nd calling method
 // final (name, age) = userCreds();
 // print(name);
 // print(age);
 
-//2nd method
+// 2nd method
 // final user = userCreds();
 // print(user);
 // print(user.name);
@@ -22,10 +22,10 @@
 //   return ('saurabh', 20);
 // }
 
-//2nd method
-({String name, int age}) userCreds() {
-  return (name: 'saurabh', age: 20);
-}
+// 2nd method
+// ({String name, int age}) userCreds() {
+//   return (name: 'saurabh', age: 20);
+// }
 
 // void main() {
 //   String? message = welcome('saurabh');
