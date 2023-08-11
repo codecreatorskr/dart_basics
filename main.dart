@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
 //➡️int dataType
   // int a = 12;
