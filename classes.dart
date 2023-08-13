@@ -116,13 +116,16 @@
   // void getColor() => print(color);
 // }
 
+//inheritanse(extends)
 
 // class Bike extends Vechile {
 //   void getSpeed() => print(speed);
 //   set setSpeed(int Speed) => speed = Speed;
 // }
 
-// 5.1.1
+
+
+// 5.1.1(if string keyword are present in list so this string is printed in console).
 //  void main(){
 //    List list = [1, 2, 'saurabh',12.324];
 //   for (int i = 0; i < list.length; i++) {
@@ -136,7 +139,7 @@
 
 
 
-
+// The static keyword is used for a class-level variable and method that is the same for every instance of a class, this means if a data member is static, it can be accessed without creating an object. The static keyword allows data members to persist Values between different instances of a class.
 //4.Static KeyWords
 // void main() {
 //   print(Greeting.policy);
@@ -161,6 +164,7 @@
 
 //   static int multiply(int a, int b) => a * b;
 // }
+
 
 //3.Getter ==>Setter ==> private variable
 

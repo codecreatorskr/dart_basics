@@ -50,13 +50,20 @@ void main() {
   // print(vals);
   // print(vals.runtimeType);
 
-//➡️dynamic
+//➡️dynamic  // var
   // dynamic value;
   // value = 12;
   // print(value);
-
   // value = 'name';
   // print(value);
+
+
+
+  // var a = 3;
+  // print(a);
+  // a = '4';      //error code
+  // print(a);
+  
 
 //➡️ STRING CONCATINATION
   // String name = 'hello';
@@ -291,14 +298,14 @@ void main() {
 //     stdout.write('\n');
 //   }
 
-  int n = 5;
-  for (int i = 0; i <= n; i++) {
-    for (int j = 0; j <= i; j++) {
-      print(' ');
-    }
-    for (int k = 0; k <= n - i; k++) {
-      print(i);
-      i++;
-    }
-  }
+//   int n = 5;
+//   for (int i = 0; i <= n; i++) {
+//     for (int j = 0; j <= i; j++) {
+//       print(' ');
+//     }
+//     for (int k = 0; k <= n - i; k++) {
+//       print(i);
+//       i++;
+//     }
+//   }
 }

@@ -72,6 +72,7 @@
 //   });
 // }
 
+
 //9.Function inside function
 // void main() {
 //   contain(2, () {
@@ -80,7 +81,7 @@
 // }
 
 // List list = [1, 2, 3, 4];
-// // int num = 2;
+// int num = 2;
 
 // void contain(int value, Function callback) {
 //   for (int i = 0; i < list.length; i++) {
@@ -93,16 +94,24 @@
 //   print('could not find');
 // }
 
+
 //8.named parameters
 // void main() {
-//   credential(city: 'udaipur',state: 'rajasthan',pincode: 313001,name: 'saurabh');
+//   credential(
+//       city: 'udaipur', state: 'rajasthan', pincode: 313001, name: 'saurabh');
 // }
-// void credential({ String? name,required String city,required String state, required pincode}) {
-//   print(name??'no name provided');
+
+// void credential(
+//     {String? name,
+//     required String city,
+//     required String state,
+//     required pincode}) {
+//   print(name ?? 'no name provided');
 //   print(city);
 //   print(state);
 //   print(pincode);
 // }
+
 
 // Positional parameters must be passed in the same order as they appear in the function signature, whereas named parameters can be passed in any order. Positional parameters are defined by their position in the parameter list, whereas named parameters are defined by their name
 
@@ -116,6 +125,7 @@
 //   print(state);
 //   print(pincode);
 // }
+
 
 //6. Anonymous Function  ();
 // () {
@@ -131,6 +141,7 @@
 //   }
 // }
 
+
 //4.check number is exist or not.
 // List list = [1, 2, 3, 4, 5];
 // int number = 2;
@@ -144,12 +155,14 @@
 //   print('num does not exist');
 //   return 0;
 
+
 //3.
 //   var add = addition(12, 12);
 //   print(add);
 // }
 // int addition(int a, int b) {
 //   return a + b;
+
 
 //2.addition
 // void addition() {
@@ -158,6 +171,7 @@
 //   print(a + b);
 // }
 // addition();
+
 
 //1.function decleration and invocation.
 // <returntype>  <function_name> (){}     //syntax
