@@ -264,3 +264,33 @@
 
 //   print('after try block');
 // }
+
+
+
+
+
+// Exceptional handling   //finally keyword
+
+
+// void main() {
+  
+//   print(10);
+
+//   //xyz
+//   print(10 / 2);
+  
+//   try{
+//     //ajay
+//       print(10/0);
+    
+//   } catch(error){
+//     print("$error ajay k code mai issue");
+//   } 
+//   finally{
+//     print("kuchbhi ho jaaye ye to pirnt hoga");
+//   }
+
+//   //sourabh
+//   print("Important Thing!");
+  
+// }

@@ -1,38 +1,64 @@
+void main() {
+  Map map = {'name': 'saurabh'};
+  print(map);
+  print(map.toString());
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //4Enums
 
 //==> 4.3
-void main() {
-  List<Student> students = [
-    Student('student_1', Subjects.english),
-    Student('Student_2', Subjects.hindi),
-    Student('Student_3', Subjects.maths),
-    Student('Student_4', Subjects.science)
-  ];
-  for (Student s in students) {
-    print(s);
-  }
-}
+// void main() {
+//   List<Student> students = [
+//     Student('student_1', Subjects.english),
+//     Student('Student_2', Subjects.hindi),
+//     Student('Student_3', Subjects.maths),
+//     Student('Student_4', Subjects.science)
+//   ];
+//   for (Student s in students) {
+//     print(s);
+//   }
+// }
 
-enum Subjects {
-  english(1),
-  hindi(2),
-  science(3),
-  maths(4);
+// enum Subjects {
+//   english(1),
+//   hindi(2),
+//   science(3),
+//   maths(4);
 
-  final classRoom;
-  const Subjects(this.classRoom);
-}
+//   final classRoom;
+//   const Subjects(this.classRoom);
+// }
 
-class Student {
-  final String name;
-  final Subjects subject;
-  Student(this.name, this.subject);
+// class Student {
+//   final String name;
+//   final Subjects subject;
+//   Student(this.name, this.subject);
 
-  @override
-  String toString() {
-    return '$name : ${subject.name} :class ${subject.classRoom}';
-  }
-}
+//   @override
+//   String toString() {
+//     return '$name : ${subject.name} :class ${subject.classRoom}';
+//   }
+// }
 // ==>>4.1
 
 // enum Subjects {
@@ -55,6 +81,9 @@ class Student {
 //   final student1 = student('Student_1', Subjects.math);
 //   print(student1);
 // }
+
+
+
 
 //4.2
 

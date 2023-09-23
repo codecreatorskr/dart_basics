@@ -185,11 +185,12 @@
 //   String _names = 'saurabh ku';
 //   String country = 'India';
 
+// //setter
+//   set setName(String val) => _names = val;
+
 // //getter function
 //   String get getName => _names;
 
-// //setter
-//   set setName(String val) => _names = val;
 
 // int number1 = 10;
 // int get number2 {
