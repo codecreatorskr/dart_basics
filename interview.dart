@@ -103,20 +103,70 @@ import 'dart:io';
 //   print("The length of the array is: $arrayLength");
 // }
 
+// void main() {
+//   List<dynamic> list = [];
+
+//   while (true) {
+//     String arrayLisst = stdin.readLineSync()!;
+
+//     if (arrayLisst.isEmpty) {
+//       break;
+//     }
+//     list.add(arrayLisst);
+//   }
+//   int arrayLength = list.length;
+//   print('length = ${arrayLength}');
+// }
+
+//write a function that takes in a number and returns true if  the number is even, false if it is odd.
+// void main() {
+//   print('enter a number ');
+//   String number = stdin.readLineSync()!;
+//   int num = int.parse(number);
+
+//   if (num.isEven) {
+//     print(
+//       'this $number number is even',
+//     );
+//   } else {
+//     print(
+//       'this $number number is odd',
+//     );
+//   }
+// }
+
+//write a function that takes in a string and returns true if the string is empty, false otherwise.
 void main() {
-  List<dynamic> list = [];
+  stdout.write('please enter your name : ');
+  String name = stdin.readLineSync()!;
 
-  while (true) {
-    String array = stdin.readLineSync()!;
-
-    if (array.isEmpty) {
-      break;
-    }
-    list.add(array);
-  }
-  int arrayLength = list.length;
-  print('length = ${arrayLength}');
+  print(name.isEmpty ? 'true  String is empty' : 'false  String is not empty');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
